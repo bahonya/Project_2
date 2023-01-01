@@ -27,4 +27,4 @@ parameters_dict = {
     "iters_per_loop": 10
 }
 
-apply_style_transfer(512, content_image_path="images/img1_content.jpg", style_image_path="images/img1_style.jpg", result_image_path="images/img1_result.jpg",parameters_dict=parameters_dict)
+apply_style_transfer(512, content_image_path="images/img3_content.jpg", style_image_path="images/img3_style.jpg", result_image_path="images/img3_result.jpg",parameters_dict=parameters_dict)
