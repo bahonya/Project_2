@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #SBATCH --time=24:00:00
+#SBATCH --gres=gpu:1
 #SBATCH --partition=gpu
-#SBATCH --exclude=gpu04,gpu06
 #SBATCH --mem=10000
+#SBATCH --exclude=gpu04,gpu06
 #SBATCH --mail-type=end
 #SBATCH --mail-user=bakytzhan.konratov@gmail.com
 
